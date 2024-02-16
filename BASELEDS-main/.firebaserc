@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "iotcarpiochililin": {
+      "hosting": {
+        "app": [
+          "iotcarpiochililin"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "iotcarpiochililin"
+  }
+}

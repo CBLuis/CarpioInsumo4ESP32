@@ -1,0 +1,64 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>LED Control</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-grid>
+    <ion-row>
+      <ion-col size="6">
+        <ion-button expand="block" (click)="encender()" [color]="colorBoton1I(clBtn1I)">  
+          LED 1 On
+        </ion-button>
+      </ion-col>
+      <ion-col size="6">
+        <ion-button expand="block" (click)="apagar()" [color]="colorBoton1D(clBtn1D)">
+          LED 1 Off
+        </ion-button>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="6">
+        <ion-button expand="block" (click)="encender2()" [color]="colorBoton2I(clBtn2I)">
+          LED 2 On
+        </ion-button>
+      </ion-col>
+      <ion-col size="6">
+        <ion-button expand="block" (click)="apagar2()" [color]="colorBoton2D(clBtn2D)">
+          LED 2 Off
+        </ion-button>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="6">
+        <ion-button expand="block" (click)="encender3()" [color]="colorBoton3I(clBtn3I)">
+          LED 3 On
+        </ion-button>
+      </ion-col>
+      <ion-col size="6">
+        <ion-button expand="block" (click)="apagar3()" [color]="colorBoton3D(clBtn3D)">
+          LED 3 Off
+        </ion-button>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="12">
+        <ion-button expand="block" (click)="encenderAll()" [color]="colorBotonAllI(clBtnAllI)">
+          All On
+        </ion-button>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="12">
+        <ion-button expand="block" (click)="apagarAll()" [color]="colorBotonAllD(clBtnAllD)">
+          All Off
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
